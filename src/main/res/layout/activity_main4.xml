@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    android:background="@color/main"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:text="@string/bWeight"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:entries="@array/spWeight"
+        android:id="@+id/spWeight"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_margin="20sp"
+        android:hint="Enter value..."
+        android:inputType="numberDecimal"/>
+
+    <Spinner
+        android:entries="@array/spWeight"
+        android:id="@+id/spWeight2"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"/>
+
+    <Button
+        android:id="@+id/bConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:text="@string/bConvert" />
+</LinearLayout>

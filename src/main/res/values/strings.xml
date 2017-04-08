@@ -1,0 +1,29 @@
+<resources>
+    <string-array name="spTemp">
+        <item>    Celsius  </item>
+        <item>Kelvin</item>
+        <item>    Fahrenheit  </item>
+    </string-array>
+    <string-array name="spDist">
+        <item>    kilometer  </item>
+        <item>    mile  </item>
+        <item>    nautic mile  </item>
+    </string-array>
+    <string-array name="spWeight">
+        <item>    kilogram  </item>
+        <item>    pound  </item>
+        <item>    gram  </item>
+    </string-array>
+    <string-array name="spVolume">
+        <item>    liter  </item>
+        <item>    cubic meter  </item>
+        <item>    barrel  </item>
+    </string-array>
+
+    <string name="app_name">Converter</string>
+    <string name="bTemperature">TEMPERATURE</string>
+    <string name="bDistance">DISTANCE</string>
+    <string name="bWeight">WEIGHT</string>
+    <string name="bVolume">VOLUME</string>
+    <string name="bConvert">CONVERT</string>
+</resources>

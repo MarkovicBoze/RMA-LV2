@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    android:background="@color/main"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/bTemperature"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bTemperature"/>
+
+    <Button
+        android:id="@+id/bDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:text="@string/bDistance" />
+
+    <Button
+        android:id="@+id/bWeight"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bWeight"/>
+
+    <Button
+        android:id="@+id/bVolume"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bVolume"/>
+
+</LinearLayout>
